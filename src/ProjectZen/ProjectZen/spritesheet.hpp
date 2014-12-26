@@ -1,7 +1,7 @@
 #ifndef SPRITESHEET_H_
 #define SPRITESHEET_H_
 
-#include <SDL2/SDL.h>
+#include "SDL2\SDL.h"
 
 /********************************
 * TODO:

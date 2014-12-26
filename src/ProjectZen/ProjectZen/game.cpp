@@ -4,8 +4,8 @@
 #include <algorithm>
 #include <random>
 
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_image.h>
+#include "SDL2\SDL.h"
+#include "SDL2\SDL_image.h"
 
 #include "game.hpp"
 #include "particle_emitter.hpp"

@@ -1,8 +1,8 @@
 #ifndef ENTITY_H_
 #define ENTITY_H_
 
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_image.h>
+#include "SDL2\SDL.h"
+#include "SDL2\SDL_image.h"
 
 #include "spritesheet.hpp"
 #include "vector2d.hpp"
