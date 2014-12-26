@@ -7,3 +7,4 @@ doxygen/doxyfile
 *.dll
 *.out
 *.db
+/src/ProjectZen/ProjectZen/Debug
