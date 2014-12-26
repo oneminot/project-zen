@@ -10,6 +10,38 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="emitter_info.cpp" />
+    <ClCompile Include="entity.cpp" />
+    <ClCompile Include="entity_manager.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="graphic_cache.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="particle.cpp" />
+    <ClCompile Include="particle_emitter.cpp" />
+    <ClCompile Include="realtime.cpp" />
+    <ClCompile Include="spritesheet.cpp" />
+    <ClCompile Include="sun.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="vector2d.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="animation.hpp" />
+    <ClInclude Include="emitter_info.hpp" />
+    <ClInclude Include="entity.hpp" />
+    <ClInclude Include="entity_manager.hpp" />
+    <ClInclude Include="game.hpp" />
+    <ClInclude Include="graphic_cache.hpp" />
+    <ClInclude Include="night_sky.hpp" />
+    <ClInclude Include="particle.hpp" />
+    <ClInclude Include="particle_emitter.hpp" />
+    <ClInclude Include="realtime.hpp" />
+    <ClInclude Include="spritesheet.hpp" />
+    <ClInclude Include="stars.hpp" />
+    <ClInclude Include="sun.hpp" />
+    <ClInclude Include="timer.hpp" />
+    <ClInclude Include="vector2d.hpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B566069C-DE00-4937-BF64-18D43E3449F4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -77,38 +109,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\emitter_info.cpp" />
-    <ClCompile Include="..\..\entity.cpp" />
-    <ClCompile Include="..\..\entity_manager.cpp" />
-    <ClCompile Include="..\..\game.cpp" />
-    <ClCompile Include="..\..\graphic_cache.cpp" />
-    <ClCompile Include="..\..\main.cpp" />
-    <ClCompile Include="..\..\particle.cpp" />
-    <ClCompile Include="..\..\particle_emitter.cpp" />
-    <ClCompile Include="..\..\realtime.cpp" />
-    <ClCompile Include="..\..\spritesheet.cpp" />
-    <ClCompile Include="..\..\sun.cpp" />
-    <ClCompile Include="..\..\timer.cpp" />
-    <ClCompile Include="..\..\vector2d.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\animation.hpp" />
-    <ClInclude Include="..\..\emitter_info.hpp" />
-    <ClInclude Include="..\..\entity.hpp" />
-    <ClInclude Include="..\..\entity_manager.hpp" />
-    <ClInclude Include="..\..\game.hpp" />
-    <ClInclude Include="..\..\graphic_cache.hpp" />
-    <ClInclude Include="..\..\night_sky.hpp" />
-    <ClInclude Include="..\..\particle.hpp" />
-    <ClInclude Include="..\..\particle_emitter.hpp" />
-    <ClInclude Include="..\..\realtime.hpp" />
-    <ClInclude Include="..\..\spritesheet.hpp" />
-    <ClInclude Include="..\..\stars.hpp" />
-    <ClInclude Include="..\..\sun.hpp" />
-    <ClInclude Include="..\..\timer.hpp" />
-    <ClInclude Include="..\..\vector2d.hpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
